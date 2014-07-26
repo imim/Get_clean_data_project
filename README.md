@@ -52,7 +52,7 @@ EXECUTION COMMAND EXAMPLE (mac terminal):
  R CMD BATCH --no-save --no-restore run_analysis.R
  and the output "aggData.txt" will be created in the same working directory
 ```
-```
+
 SCRIPT DESCRIPTION STEP BY STEP:
 * First, reading train and test input data
 
