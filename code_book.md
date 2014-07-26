@@ -10,7 +10,7 @@ Each person performed six activities (WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTA
 The results of the experiments (features) has been taken as the original variables in the train and test datasets, the features described in "features.txt" of the mentioned zip.
 
 For generating the "aggData.txt" dataset, the original train and test datasets has been merged into one, adding a column for the activities and another one for the subjects, and selecting only the columns with calculated "mean" or "standard deviation".
-The columns has been renamed with "_", and without other special characters.
+The columns has been renamed, replacing special characters.
 The numeric values in the variable "activity", using the list in activity_labels.txt, has been converted to strings.
 For each feature variable, and grouping by subject and activity, the average has been calculated. Indicating this, the result columns names start with the preffix "avg_"
 
