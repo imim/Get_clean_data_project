@@ -1,9 +1,9 @@
 |	ORDER	|	NAME	|	DESCRIPTION	|	TYPE	|	POSSIBLE VALUES	|	ORIGIN	|
 |	-----	|	-------------------------------	|	------------------------------------------------------	|	------	|	--------------------------------------------------------------------------	|	-------------------------------------------------------------------------------------------------------------------------------------------------------	|
-|	1	|	subject	|	"Identification of each person who has participated
- in the experiment"	|	int	|	1 to 30	|	"Please, see readme.txt file, in https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip"""	|
-|	2	|	activity	|	"Activity labels: Each person performed six activities
- wearing a smartphone (Samsung Galaxy S II) "	|	str	|	WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING	|	"Please, see activity_labels.txt file, in https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip"""	|
+|	1	|	subject	|	Identification of each person who has participated
+ in the experiment	|	int	|	1 to 30	|	Please, see readme.txt file, in https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip	|
+|	2	|	activity	|	Activity labels: Each person performed six activities
+ wearing a smartphone (Samsung Galaxy S II)	|	str	|	WALKING,WALKING_UPSTAIRS,WALKING_DOWNSTAIRS, SITTING,STANDING,LAYING	|	"Please, see activity_labels.txt file,  https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip"""	|
 |	3	|	avg_tBodyAcc_mean_X	|	tBodyAcc_mean_Y average, by subject and activity	|	num	|	Normalized: [-1, 1]	|	Please, see tBodyAcc_mean_Y in features_info.txt file, in https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip	|
 |	4	|	avg_tBodyAcc_mean_Y	|	tBodyAcc_mean_Z average, by subject and activity	|	num	|	Normalized: [-1, 1]	|	Please, see tBodyAcc_mean_Z in features_info.txt file, in https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip	|
 |	5	|	avg_tBodyAcc_mean_Z	|	tBodyAcc_std_X average, by subject and activity	|	num	|	Normalized: [-1, 1]	|	Please, see tBodyAcc_std_X in features_info.txt file, in https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip	|
