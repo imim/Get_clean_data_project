@@ -79,7 +79,7 @@ SCRIPT DESCRIPTION STEP BY STEP:
 
 *  In order to accomplish "Creates a second, independent tidy data set with the average of each
  variable":
-   * Executing "aggregate" by subject and activity and FUN = mean
+   * Executing "aggregate" by subject and activity and mean as FUN
    * Renaming the mean columns with the prefix "mean_"
    * Saving the final tidy dataset in order to submit the course project
 
