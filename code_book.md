@@ -1,5 +1,6 @@
 aggData.txt: Code Book
 ======================
+(Variables order, name, description, type, possible values, origin)
 
 |	ORDER	|	NAME	|	DESCRIPTION	|	TYPE	|	POSSIBLE VALUES	|	ORIGIN (https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip)	|
 |	-----	|	-------------------------------	|	------------------------------------------------------	|	------	|	--------------------------------------------------------------------------	|	-------------------------------------------------------------------------------------------------------------------------------------------	|
