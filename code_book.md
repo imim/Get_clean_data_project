@@ -72,4 +72,4 @@ aggData.txt: Code Book
 |	66	|	avg_fBodyBodyGyroMag_mean	|	fBodyBodyGyroMag_std average, by subject and activity	|	num	|	Normalized: [-1, 1]	|	Please, see fBodyBodyGyroMag_std in features_info.txt file	|
 |	67	|	avg_fBodyBodyGyroMag_std	|	fBodyBodyGyroJerkMag_mean average, by subject and activity	|	num	|	Normalized: [-1, 1]	|	Please, see fBodyBodyGyroJerkMag_mean in features_info.txt file	|
 |	68	|	avg_fBodyBodyGyroJerkMag_mean	|	fBodyBodyGyroJerkMag_std average, by subject and activity	|	num	|	Normalized: [-1, 1]	|	Please, see fBodyBodyGyroJerkMag_std in features_info.txt file	|
-|	69	|	avg_fBodyBodyGyroJerkMag_std	|	 average, by subject and activity	|	num	|	Normalized: [-1, 1]	|	Please, see  in features_info.txt file	|
+|	69	|	avg_fBodyBodyGyroJerkMag_std	|	 average, by subject and activity	|	num	|	Normalized: [-1, 1]	|	Please, see fBodyBodyGyroJerkMag_std in features_info.txt file	|
