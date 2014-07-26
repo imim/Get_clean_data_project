@@ -77,7 +77,6 @@ SCRIPT DESCRIPTION STEP BY STEP:
 * In order to accomplish "Merges the training and the train sets to create one data set", joining
  train and test datasets with rbind
 
-
 *  In order to accomplish "Creates a second, independent tidy data set with the average of each
  variable"
 ** Executing "aggregate" by subject and activity and FUN = mean.
