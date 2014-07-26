@@ -3,8 +3,8 @@ Get_clean_data_project
 
 Repository for "course project", Coursera "Getting and cleaning data"
 
-# AUTHOR: Isabel M. Izquierdo Martin (imim@tid.es)
-# DATE: 07/26/2014
+AUTHOR: Isabel M. Izquierdo Martin (imim@tid.es)
+DATE: 07/26/2014
 
 # CONTENT: 
 ##     run_analysis.R script
