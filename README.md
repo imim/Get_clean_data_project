@@ -65,12 +65,12 @@ SCRIPT DESCRIPTION STEP BY STEP:
 
 * In order to accomplish "  Uses descriptive activity names to name the activities in the data set:
   * Substituing numbers by descriptions in "activity" labels
-    * 1 WALKING
-    * 2 WALKING_UPSTAIRS
-    * 3 WALKING_DOWNSTAIRS
-    * 4 SITTING
-    * 5 STANDING
-    * 6 LAYING
+     * 1 WALKING
+     * 2 WALKING_UPSTAIRS
+     * 3 WALKING_DOWNSTAIRS
+     * 4 SITTING
+     * 5 STANDING
+     * 6 LAYING
   * Adding a column with activity labels to the datasets
   * Adding a column with the subjects to the datasets
 
