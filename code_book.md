@@ -1,4 +1,4 @@
-|	ORDER	|	NAME	|	DESCRIPTION	|	TYPE	|	POSSIBLE VALUES	|	ORIGEM	|
+|	ORDER	|	NAME	|	DESCRIPTION	|	TYPE	|	POSSIBLE VALUES	|	ORIGIN	|
 |	-----	|	-----------------------------	|	----------------------------------------------------	|	----	|	--------------------	|	-----------------------------------------------------------------------------------------------------------------------------------------------------	|
 |	1	|	subject	|	"Identification of each person who has participated
  in the experiment"	|	int	|	1 to 30	|	"Please, see readme.txt file, in https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip"""	|
