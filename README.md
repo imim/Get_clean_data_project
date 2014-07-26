@@ -57,30 +57,30 @@ SCRIPT DESCRIPTION STEP BY STEP:
 * First, reading train and test input data
 
 * In order to accomplish " 4. Appropriately labels the data set with descriptive variable names: 
-** Reading features.txt and substituing special characters in features
-** Assigning features as "column names" in the input datasets
+  * Reading features.txt and substituing special characters in features
+  * Assigning features as "column names" in the input datasets
 
 * In order to accomplish "  Extracts only the measurements on the mean and standard deviation
  for each measurement", subset, only those columns. 
 
 * In order to accomplish "  Uses descriptive activity names to name the activities in the data set:
-** Substituing numbers by descriptions in "activity" labels
-*** 1 WALKING
-*** 2 WALKING_UPSTAIRS
-*** 3 WALKING_DOWNSTAIRS
-*** 4 SITTING
-*** 5 STANDING
-*** 6 LAYING
-** Adding a column with activity labels to the datasets
-** Adding a column with the subjects to the datasets
+  * Substituing numbers by descriptions in "activity" labels
+    * 1 WALKING
+    * 2 WALKING_UPSTAIRS
+    * 3 WALKING_DOWNSTAIRS
+    * 4 SITTING
+    * 5 STANDING
+    * 6 LAYING
+  * Adding a column with activity labels to the datasets
+  * Adding a column with the subjects to the datasets
 
 * In order to accomplish "Merges the training and the train sets to create one data set", joining
  train and test datasets with rbind
 
 *  In order to accomplish "Creates a second, independent tidy data set with the average of each
  variable":
-** Executing "aggregate" by subject and activity and FUN = mean.
-** Renaming the mean columns with the prefix "mean_"
-** Saving the final tidy dataset in order to submit the course project
+   * Executing "aggregate" by subject and activity and FUN = mean.
+   * Renaming the mean columns with the prefix "mean_"
+   * Saving the final tidy dataset in order to submit the course project
 
 
