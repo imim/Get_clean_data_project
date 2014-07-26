@@ -82,5 +82,3 @@ SCRIPT DESCRIPTION STEP BY STEP:
    * Executing "aggregate" by subject and activity and mean as FUN
    * Renaming the mean columns with the prefix "mean_"
    * Saving the final tidy dataset in order to submit the course project
-
-
