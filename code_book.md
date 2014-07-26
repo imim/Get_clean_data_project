@@ -1,6 +1,6 @@
 aggData.txt: Code Book
 ======================
-(Please, see the table below with Variables order, name, description, type, possible values, origin)
+*(Please, see the table below with Variables order, name, description, type, possible values, origin)*
 
 The origin of these dataset is https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip.
 
