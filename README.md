@@ -43,7 +43,7 @@ LIMITATIONS:
  The source directory must be "/UCI HAR Dataset", with the same structure it has
  when this zip:
  "https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip"
- is downloaded un unzipped in the working directory.
+ is downloaded un unzipped in the working directory
 ```
 ```
 EXECUTION COMMAND EXAMPLE (mac terminal):
@@ -61,7 +61,7 @@ SCRIPT DESCRIPTION STEP BY STEP:
   * Assigning features as "column names" in the input datasets
 
 * In order to accomplish "  Extracts only the measurements on the mean and standard deviation
- for each measurement", subset, only those columns. 
+ for each measurement", subset, only those columns 
 
 * In order to accomplish "  Uses descriptive activity names to name the activities in the data set:
   * Substituing numbers by descriptions in "activity" labels
@@ -79,7 +79,7 @@ SCRIPT DESCRIPTION STEP BY STEP:
 
 *  In order to accomplish "Creates a second, independent tidy data set with the average of each
  variable":
-   * Executing "aggregate" by subject and activity and FUN = mean.
+   * Executing "aggregate" by subject and activity and FUN = mean
    * Renaming the mean columns with the prefix "mean_"
    * Saving the final tidy dataset in order to submit the course project
 
