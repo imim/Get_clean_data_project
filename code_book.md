@@ -1,19 +1,17 @@
 aggData.txt: Code Book
 ======================
 (Please, see the table below with Variables order, name, description, type, possible values, origin)
-The origin of these dataset is https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip.
-In the "README.txt" of that zip, the dataset is described as "Human Activity Recognition Using Smartphones Dataset".
 
-The experiments have been carried out with a group of 30 volunteers (variable "subject" in the aggData.txt dataset)
+The origin of these dataset is https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip.
+
+In the "README.txt" of that zip, the dataset is described as "Human Activity Recognition Using Smartphones Dataset".
+The experiments have been carried out with a group of 30 volunteers (variable "subject" in the aggData.txt dataset).
 Each person performed six activities (WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING) wearing a smartphone (Samsung Galaxy S II) on the waist.
-The results of the experiments has been taken as the original variables in the train and test datasets, the features described in "features.txt" of the mentioned zip.
+The results of the experiments (features) has been taken as the original variables in the train and test datasets, the features described in "features.txt" of the mentioned zip.
 
 For generating the "aggData.txt" dataset, the original train and test datasets has been merged into one, adding a column for the activities and another one for the subjects, and selecting only the columns with calculated "mean" or "standard deviation".
-
 The columns has been renamed with "_", and without other special characters.
-
 The numeric values in the variable "activity", using the list in activity_labels.txt, has been converted to strings.
-
 For each feature variable, and grouping by subject and activity, the average has been calculated. Indicating this, the result columns names start with the preffix "avg_"
 
 |	ORDER	|	NAME	|	DESCRIPTION	|	TYPE	|	POSSIBLE VALUES	|	ORIGIN (https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip)	|
