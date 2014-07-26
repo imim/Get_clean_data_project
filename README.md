@@ -56,7 +56,7 @@ EXECUTION COMMAND EXAMPLE (mac terminal):
 SCRIPT DESCRIPTION STEP BY STEP:
 * First, reading train and test input data
 
-* In order to accomplish " 4. Appropriately labels the data set with descriptive variable names. 
+* In order to accomplish " 4. Appropriately labels the data set with descriptive variable names: 
 ** Reading features.txt and substituing special characters in features
 ** Assigning features as "column names" in the input datasets
 
@@ -78,7 +78,7 @@ SCRIPT DESCRIPTION STEP BY STEP:
  train and test datasets with rbind
 
 *  In order to accomplish "Creates a second, independent tidy data set with the average of each
- variable"
+ variable":
 ** Executing "aggregate" by subject and activity and FUN = mean.
 ** Renaming the mean columns with the prefix "mean_"
 ** Saving the final tidy dataset in order to submit the course project
