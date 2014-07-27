@@ -19,7 +19,7 @@
 #         of each variable for each activity and each subject, after having selected
 #         only mean and std variables, with describing variables in the names
 
-# Plese see the "codebook" for more details
+# Plese see the "code_book.txt" for more details
 
 ## In order to load this output tidy dataset into R, please execute:
 # aggData <- read.table("aggData.txt", header = TRUE, sep ="|")
@@ -56,7 +56,7 @@ features <- read.table("./UCI HAR Dataset/features.txt")
 # Substituing special characters in features
 features.renamed <- gsub("\\(", "", features$V2)
 features.renamed <- gsub("\\)", "", features.renamed)
-features.renamed <- gsub("-", "_", features.renamed)
+features.renamed <- gsub("-", "", features.renamed)
 features.renamed
 
 # Features are "column names" in the datasets
@@ -120,9 +120,9 @@ mergedDataset <- rbind(trainDataset.reduced, testDataset.reduced)
 aggData = aggregate(. ~ subject * activity,
                               data=mergedDataset, FUN=mean)
 
-# Renaming the mean columns with the prefix "mean_"
+# Renaming the mean columns with the prefix "avg"
 varsNames <- colnames(aggData)[3:69]
-varsNamesMean <- lapply(varsNames, function(item) paste("avg_", item, sep="" ))
+varsNamesMean <- lapply(varsNames, function(item) paste("avg", item, sep="" ))
 colnames(aggData)[3:69] <- varsNamesMean
 
 # Saving the final tidy dataset in order to submit the course project
