@@ -84,4 +84,4 @@ For each feature variable, and grouping by subject and activity, the average has
 |	66	|	avgfBodyBodyGyroMagmean	|	fBodyBodyGyroMagstd average, by subject and activity	|	num	|	Normalized: [-1, 1]	|	Please, see fBodyBodyGyroMagstd in featuresinfo.txt file	|
 |	67	|	avgfBodyBodyGyroMagstd	|	fBodyBodyGyroJerkMagmean average, by subject and activity	|	num	|	Normalized: [-1, 1]	|	Please, see fBodyBodyGyroJerkMagmean in featuresinfo.txt file	|
 |	68	|	avgfBodyBodyGyroJerkMagmean	|	fBodyBodyGyroJerkMagstd average, by subject and activity	|	num	|	Normalized: [-1, 1]	|	Please, see fBodyBodyGyroJerkMagstd in featuresinfo.txt file	|
-|	69	|	avgfBodyBodyGyroJerkMagstd	|	 average, by subject and activity	|	num	|	Normalized: [-1, 1]	|	Please, see fBodyBodyGyroJerkMagstd in featuresinfo.txt file	|
+|	69	|	avgfBodyBodyGyroJerkMagstd	|	fBodyBodyGyroJerkMagstd average, by subject and activity	|	num	|	Normalized: [-1, 1]	|	Please, see fBodyBodyGyroJerkMagstd in featuresinfo.txt file	|
